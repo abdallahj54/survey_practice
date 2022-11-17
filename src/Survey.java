@@ -46,6 +46,7 @@ public class Survey {
 
                 Participant participant = new Participant(name, age, gender);
                 participants.add(participant);
+                Participant.addParticipants();
 
                 if(gender == 'M') Participant.addMaleParticipants();
                 else Participant.addFemaleParticipants();

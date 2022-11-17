@@ -12,7 +12,7 @@ public class Participant {
     total number of female participants -> variable name can be totalNumberOfFemaleParticipants
      */
 
-    public static int totalNumberOfParticipants;
+    public static int totalNumberOfParticipants = 0;
     public static int totalNumberOfMaleParticipants;
     public static int totalNumberOfFemaleParticipants;
 
